@@ -1,0 +1,215 @@
+fileFormatVersion: 2
+guid: 5002e68022253484f8ef01a4d144ff69
+timeCreated: 1506387480
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Core
+    100004: Ear
+    100006: Ear 1
+    100008: EarStart
+    100010: EarStart1
+    100012: Eyes1
+    100014: Forehead
+    100016: Jaguar
+    100018: Jaw
+    100020: L_Back_2ndKnee
+    100022: L_Back_Ankle
+    100024: L_Back_Clevicle
+    100026: L_Back_Knee
+    100028: L_Back_Paw
+    100030: L_Back_Shoulder
+    100032: L_Front_Ankle
+    100034: L_Front_Clevicle
+    100036: L_Front_Knee
+    100038: L_Front_paw
+    100040: L_Front_Shoulder
+    100042: L_Shoulder
+    100044: LowerEye
+    100046: LowerEye1
+    100048: LowerMouth
+    100050: LowerTorso
+    100052: Neck
+    100054: Nose
+    100056: R_Back_2ndKnee
+    100058: R_Back_Ankle
+    100060: R_Back_Clevicle
+    100062: R_Back_Knee
+    100064: R_Back_Paw
+    100066: R_Back_Shoulder
+    100068: R_Front_Ankle
+    100070: R_Front_Clevicle
+    100072: R_Front_Knee
+    100074: R_Front_paw
+    100076: R_Front_Shoulder
+    100078: R_Shoulder
+    100080: TailEnd
+    100082: TailMid
+    100084: TailStart
+    100086: UpperEye
+    100088: UpperEye1
+    100090: UpperHead
+    100092: UpperMouth
+    100094: UpperTorso
+    100096: Waist
+    400000: //RootNode
+    400002: Core
+    400004: Ear
+    400006: Ear 1
+    400008: EarStart
+    400010: EarStart1
+    400012: Eyes1
+    400014: Forehead
+    400016: Jaguar
+    400018: Jaw
+    400020: L_Back_2ndKnee
+    400022: L_Back_Ankle
+    400024: L_Back_Clevicle
+    400026: L_Back_Knee
+    400028: L_Back_Paw
+    400030: L_Back_Shoulder
+    400032: L_Front_Ankle
+    400034: L_Front_Clevicle
+    400036: L_Front_Knee
+    400038: L_Front_paw
+    400040: L_Front_Shoulder
+    400042: L_Shoulder
+    400044: LowerEye
+    400046: LowerEye1
+    400048: LowerMouth
+    400050: LowerTorso
+    400052: Neck
+    400054: Nose
+    400056: R_Back_2ndKnee
+    400058: R_Back_Ankle
+    400060: R_Back_Clevicle
+    400062: R_Back_Knee
+    400064: R_Back_Paw
+    400066: R_Back_Shoulder
+    400068: R_Front_Ankle
+    400070: R_Front_Clevicle
+    400072: R_Front_Knee
+    400074: R_Front_paw
+    400076: R_Front_Shoulder
+    400078: R_Shoulder
+    400080: TailEnd
+    400082: TailMid
+    400084: TailStart
+    400086: UpperEye
+    400088: UpperEye1
+    400090: UpperHead
+    400092: UpperMouth
+    400094: UpperTorso
+    400096: Waist
+    2300000: Eyes1
+    3300000: Eyes1
+    4300000: Jaguar
+    4300002: Eyes1
+    7400000: Jaguar_walking
+    9500000: //RootNode
+    13700000: Jaguar
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Jaguar_walking
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 96
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
