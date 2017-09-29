@@ -44,6 +44,8 @@ public class Cube : MonoBehaviour, IFocusable, IInputClickHandler, ISpeechHandle
     public void OnSpeechKeywordRecognized(SpeechKeywordRecognizedEventData eventData)
     {
 
+        
+
         Debug.Log("speaking");
         string word = eventData.RecognizedText.ToLower();
         Debug.Log(word);

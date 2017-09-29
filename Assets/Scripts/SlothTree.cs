@@ -18,6 +18,8 @@ public class SlothTree : MonoBehaviour, IInputClickHandler
 
     AudioSource treeAudio;
 
+    bool isClicked = false;
+
     void Start () {
         rend = GetComponent<Renderer>();
         treeAudio = GetComponent<AudioSource>();
@@ -81,17 +83,27 @@ public class SlothTree : MonoBehaviour, IInputClickHandler
         leaves.StopFalling();
         treeAudio.Stop();
 
-        Debug.Log("after rend");
+        //disappear red panda
+        RedPanda panda = GameObject.Find("RedPanda (1)").GetComponent<RedPanda>();
+        panda.RunAway();
+
+        //Debug.Log("after rend");
+
         //sloth come down slowly
         sloth.SetActive(true);
-        Sloth slothFunc = sloth.GetComponent<Sloth>();
+        LazySloth slothFunc = sloth.GetComponent<LazySloth>();
         slothFunc.ClimbDown();
     }
 
     public void OnInputClicked(InputClickedEventData eventData)
     {
-        Debug.Log("click");
-        StopEffect();
+        if(!isClicked)
+        {
+            Debug.Log("click");
+            StopEffect();
+            isClicked = true;
+        }
+       
         //rend.material.color = Color.yellow;
 
     }

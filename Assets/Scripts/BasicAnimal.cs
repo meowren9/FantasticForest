@@ -228,6 +228,8 @@ public class BasicAnimal : MonoBehaviour, IFocusable, ISpeechHandler, IInputClic
         running = true;
     }
 
+
+
     void SetSound(AudioClip choice)
     {
         myAudio.Stop();
