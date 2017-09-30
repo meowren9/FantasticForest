@@ -14,12 +14,25 @@ public class RedPanda : MonoBehaviour, IInputClickHandler, IFocusable
 
     public GameObject apple;
 
+    public GameObject riddle_apple;
+
     public SlothTree slothTree;
 
+    AudioManager pandaAudio;
 
-	void Start () {
+    bool isLocked = false;
+
+
+    void Start () {
         pandaMovement = GetComponent<AnimalMovement>();
         pandaAnim = GetComponent<Animator>();
+        pandaAudio = GetComponent<AudioManager>();
+
+        //pandaAudio = GetComponent<AudioSource>();
+        //pandaAudio.clip = 
+
+        
+
         StartCoroutine(Mumble());
     }
 
@@ -32,8 +45,11 @@ public class RedPanda : MonoBehaviour, IInputClickHandler, IFocusable
             pandaAnim.SetTrigger("requesting");
 
             //start talking about apple
+            pandaAudio.PlayClip("PandaRiddle");
 
             StopCoroutine(Mumble());
+            riddle_apple.SetActive(true);
+
             status = 1;
         }
 
@@ -41,14 +57,14 @@ public class RedPanda : MonoBehaviour, IInputClickHandler, IFocusable
         {
             //repeat requesting apple voice
             Debug.Log("where is my apple man?");
-
+            //pandaAudio.PlayClip("PandaCue");
         }
 
         if(status == 2)
         {
             //repeat sloth is on tree
             Debug.Log("Mr. sloth is on the tree");
-
+            
         }
 
     }
@@ -71,6 +87,7 @@ public class RedPanda : MonoBehaviour, IInputClickHandler, IFocusable
                 //sound
                 Debug.Log("thank you");
                 Debug.Log("Mr. sloth is on the tree");
+                pandaAudio.PlayClip("PandaEnding");
 
                 slothTree.StartEffect();
 
@@ -99,8 +116,9 @@ public class RedPanda : MonoBehaviour, IInputClickHandler, IFocusable
         status = 3;
         //sound
         Debug.Log("good luck");
-        
+
         //animation: stand -> run
+        pandaAnim.SetTrigger("walking");
 
         StartCoroutine(Disappear());
 
@@ -117,18 +135,25 @@ public class RedPanda : MonoBehaviour, IInputClickHandler, IFocusable
 
     IEnumerator Mumble()
     {
-        while(status == 0)
+        yield return new WaitForSeconds(5f);
+        while (status == 0)
         {
-            yield return new WaitForSeconds(mumble_interval);
+            
             Debug.Log("you can't find treasure without my help");
+            pandaAudio.PlayClip("PandaOverHere");
+            yield return new WaitForSeconds(mumble_interval);
             //repeat annoying voice
         }
     }
+
+    public GameObject bubble;
 
     public void OnFocusEnter()
     {
 
         Debug.Log("enter red");
+        bubble.SetActive(true);
+
 
     }
 
@@ -136,11 +161,16 @@ public class RedPanda : MonoBehaviour, IInputClickHandler, IFocusable
     {
 
         Debug.Log("exit red");
-
+        bubble.SetActive(false);
     }
 
     // bubble up
 
+
+    public void LetAppleGo()
+    {
+        apple.SetActive(false);
+    }
 
 
 }

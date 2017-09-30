@@ -12,6 +12,7 @@ public class LazySloth : MonoBehaviour, IInputClickHandler, IFocusable
     public Transform bottom;
 
     public GameObject jaguar;
+    public GameObject papaya;
 
 	// Use this for initialization
 	void Awake () {
@@ -28,6 +29,8 @@ public class LazySloth : MonoBehaviour, IInputClickHandler, IFocusable
     {
         slothMove = GetComponent<AnimalMovement>();
         slothMove.StartMovement(bottom);
+
+        Debug.Log("who is there");
     }
 
     public void ClimbUp()
@@ -68,6 +71,8 @@ public class LazySloth : MonoBehaviour, IInputClickHandler, IFocusable
             Debug.Log("ah... young man, you must here for the treasure, could you do me a favor?");
             Debug.Log("I want that papaya,could you please get rid of the flies?");
 
+            papaya.SetActive(true);
+
             //stop talking
             status = 1;
             
@@ -101,14 +106,14 @@ public class LazySloth : MonoBehaviour, IInputClickHandler, IFocusable
     public void OnFocusEnter()
     {
 
-        Debug.Log("enter red");
+        //Debug.Log("enter red");
 
     }
 
     public void OnFocusExit()
     {
 
-        Debug.Log("exit red");
+        //Debug.Log("exit red");
 
     }
 

@@ -10,6 +10,8 @@ public class Jaguar : MonoBehaviour, IFocusable
     AnimalMovement jaguarMove;
     public Transform treasure;
 
+    public GameObject eyeball;
+
     int status = 0;
 
     public LazySloth sloth;
@@ -36,11 +38,12 @@ public class Jaguar : MonoBehaviour, IFocusable
 
     private void OnTriggerEnter(Collider other)
     {
-        if(status == 1)
+        if(status == 1 && other.tag == "Player")
         {
             Debug.Log("alright young man, now I will read your mind through your eyes, look at my eyes, don't blink");
-            status = 2;
 
+            eyeball.SetActive(true);
+            status = 2;
         }
 
     }

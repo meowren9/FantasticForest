@@ -14,7 +14,7 @@ public class AnimalMovement : MonoBehaviour {
     private float journeyLength;
 
     //test
-    public Transform test;
+    //public Transform test;
 
     void Start () {
         //test

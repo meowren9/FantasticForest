@@ -37,7 +37,7 @@ public class Leaf : MonoBehaviour {
 
         if (transform.position.y == bottom)
         {
-            Debug.Log("stop climb down");
+            //Debug.Log("stop climb down");
             Destroy(gameObject);
         }
     }

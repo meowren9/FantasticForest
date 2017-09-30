@@ -1,0 +1,219 @@
+fileFormatVersion: 2
+guid: 7a765e474ede5df4c869a8ad41fb940c
+timeCreated: 1506729397
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: _RedPanda_Eyes:Eyes1
+    100004: Core
+    100006: Ear_Head
+    100008: Jaw
+    100010: L_BackFeet_Ankle
+    100012: L_BackFeet_Claw
+    100014: L_BackFeet_Clevicle
+    100016: L_BackFeet_Foot
+    100018: L_BackFeet_Knee
+    100020: L_BackFeet_Shoulder
+    100022: L_Ear
+    100024: L_EarShoulder
+    100026: L_FrontFeet_Ankle
+    100028: L_FrontFeet_Claws
+    100030: L_FrontFeet_Clevicle
+    100032: L_FrontFeet_Foot
+    100034: L_FrontFeet_Knee
+    100036: L_FrontFeet_Shoulder
+    100038: L_LowerEyes
+    100040: L_UpperEyes
+    100042: LowerHead
+    100044: LowerMouth
+    100046: LowerTorso
+    100048: Neck
+    100050: Nose
+    100052: R_BackFeet_Ankle
+    100054: R_BackFeet_Claw
+    100056: R_BackFeet_Clevicle
+    100058: R_BackFeet_Foot
+    100060: R_BackFeet_Knee
+    100062: R_BackFeet_Shoulder
+    100064: R_Ear
+    100066: R_EarShoulder
+    100068: R_FrontFeet_Ankle
+    100070: R_FrontFeet_Claws
+    100072: R_FrontFeet_Clevicle
+    100074: R_FrontFeet_Foot
+    100076: R_FrontFeet_Knee
+    100078: R_FrontFeet_Shoulder
+    100080: R_LowerEyes
+    100082: R_UpperEyes
+    100084: RedPanda
+    100086: TailBot
+    100088: TailMiddle
+    100090: TailStart
+    100092: TailTop
+    100094: UpperHead
+    100096: UpperMouth
+    100098: UpperTorso
+    100100: Waist
+    400000: //RootNode
+    400002: _RedPanda_Eyes:Eyes1
+    400004: Core
+    400006: Ear_Head
+    400008: Jaw
+    400010: L_BackFeet_Ankle
+    400012: L_BackFeet_Claw
+    400014: L_BackFeet_Clevicle
+    400016: L_BackFeet_Foot
+    400018: L_BackFeet_Knee
+    400020: L_BackFeet_Shoulder
+    400022: L_Ear
+    400024: L_EarShoulder
+    400026: L_FrontFeet_Ankle
+    400028: L_FrontFeet_Claws
+    400030: L_FrontFeet_Clevicle
+    400032: L_FrontFeet_Foot
+    400034: L_FrontFeet_Knee
+    400036: L_FrontFeet_Shoulder
+    400038: L_LowerEyes
+    400040: L_UpperEyes
+    400042: LowerHead
+    400044: LowerMouth
+    400046: LowerTorso
+    400048: Neck
+    400050: Nose
+    400052: R_BackFeet_Ankle
+    400054: R_BackFeet_Claw
+    400056: R_BackFeet_Clevicle
+    400058: R_BackFeet_Foot
+    400060: R_BackFeet_Knee
+    400062: R_BackFeet_Shoulder
+    400064: R_Ear
+    400066: R_EarShoulder
+    400068: R_FrontFeet_Ankle
+    400070: R_FrontFeet_Claws
+    400072: R_FrontFeet_Clevicle
+    400074: R_FrontFeet_Foot
+    400076: R_FrontFeet_Knee
+    400078: R_FrontFeet_Shoulder
+    400080: R_LowerEyes
+    400082: R_UpperEyes
+    400084: RedPanda
+    400086: TailBot
+    400088: TailMiddle
+    400090: TailStart
+    400092: TailTop
+    400094: UpperHead
+    400096: UpperMouth
+    400098: UpperTorso
+    400100: Waist
+    2300000: _RedPanda_Eyes:Eyes1
+    3300000: _RedPanda_Eyes:Eyes1
+    4300000: RedPanda
+    4300002: _RedPanda_Eyes:Eyes1
+    7400000: LyingDown
+    9500000: //RootNode
+    13700000: RedPanda
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: LyingDown
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

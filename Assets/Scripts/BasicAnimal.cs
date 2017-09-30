@@ -14,6 +14,8 @@ public class BasicAnimal : MonoBehaviour, IFocusable, ISpeechHandler, IInputClic
     public GameObject player;
     float speed = 4f;
     bool rotating = false;
+
+
     bool moving = false;
 
 

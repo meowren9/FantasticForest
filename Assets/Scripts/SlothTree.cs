@@ -84,7 +84,7 @@ public class SlothTree : MonoBehaviour, IInputClickHandler
         treeAudio.Stop();
 
         //disappear red panda
-        RedPanda panda = GameObject.Find("RedPanda (1)").GetComponent<RedPanda>();
+        RedPanda panda = GameObject.Find("newRedPanda").GetComponent<RedPanda>();
         panda.RunAway();
 
         //Debug.Log("after rend");
